@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap");
+
+/* //font-family: 'Orbitron', sans-serif; */
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  visibility: hidden;
+}
+
+.start-screen {
+  width: 40%;
+  margin: 5% auto;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  background-color: lightblue;
+}
+
+background {
+color: beige
+}
+
+.start-screen h1,
+.content h1 {
+  color: rgb(107, 107, 219);
+  font-size: 55px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.start-screen button {
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 20px 40px;
+  color: white;
+  background-color: #007bff;
+}
+
+.start-screen h2,
+.clicks {
+  font-size: 30px;
+  color: #ce29f7;
+  font-family: "Orbitron", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.game-card {
+  width: 30%;
+  height: 230px;
+  margin: 2px;
+  position: relative;
+}
+
+.game-card:hover {
+  cursor: pointer;
+}
+
+.game-card img {
+  height: 100%;
+  width: 100%;
+}
+
+.top-layer {
+  width: 100%;
+  height: 230px;
+  background-color: rgb(107, 107, 219);
+  position: absolute;
+  top: 0;
+}
+
+.top-layer:hover {
+  background-color: rgb(137, 137, 219);
+}
+
+.no-background {
+  background-color: transparent;
+}
+
+.game-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.clicks {
+  max-height: 50px;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 40px;
+}
